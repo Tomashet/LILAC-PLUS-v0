@@ -1,0 +1,2 @@
+run_name,csv_path,n_rows,missing_columns,bad_threshold_order_count,violation_mismatch_count,near_miss_mismatch_count,overlap_count,null_clearance_count,null_tau_near_miss_count,null_tau_violation_count,contexts_present,tau_near_miss_unique_global,tau_violation_unique_global,tau_varies_by_context,near_miss_rate,violation_rate,shield_used_rate,clearance_min,clearance_mean,passed_basic_checks
+debug_run_009,runs\debug_run_009\train_monitor.csv,600,[],0,0,0,0,0,0,0,6,6,6,1,0.1,0.05,0.065,-13.416933059692385,616.9904507931315,True

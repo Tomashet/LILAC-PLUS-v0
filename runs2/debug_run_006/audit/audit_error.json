@@ -1,0 +1,8 @@
+{
+  "run_name": "debug_run_006",
+  "error": "missing_required_columns",
+  "missing_columns": [
+    "tau_near_miss",
+    "tau_violation"
+  ]
+}

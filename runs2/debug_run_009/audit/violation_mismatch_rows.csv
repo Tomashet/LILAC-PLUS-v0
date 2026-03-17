@@ -1,0 +1,1 @@
+timestep,clearance,near_miss,violation,shield_used,shield_reason,ctx_id,ctx_tuple,tau_near_miss,tau_violation,eps,inflate,adj_risk,adj_unsafe,adj_s_env,adj_s_agent,adj_eps_override,budget_bt,budget_rem,budget_filtered,budget_risk,budget_C,budget_T,calib_resid

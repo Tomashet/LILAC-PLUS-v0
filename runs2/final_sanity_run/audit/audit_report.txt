@@ -1,0 +1,37 @@
+Run: final_sanity_run
+CSV: runs\final_sanity_run\train_monitor.csv
+Rows: 2000
+
+Basic checks:
+  missing_columns: []
+  bad_threshold_order_count: 0
+  violation_mismatch_count: 0
+  near_miss_mismatch_count: 0
+  overlap_count: 0
+
+Nulls:
+  null_clearance_count: 0
+  null_tau_near_miss_count: 0
+  null_tau_violation_count: 0
+
+Global summary:
+  contexts_present: 16
+  tau_near_miss_unique_global: 16
+  tau_violation_unique_global: 15
+  tau_varies_by_context: 1
+  near_miss_rate: 0.102500
+  violation_rate: 0.054500
+  shield_used_rate: 0.061500
+  clearance_min: -13.416933
+  clearance_mean: 595.302079
+
+PASSED_BASIC_CHECKS: True
+
+Wrote:
+  runs\final_sanity_run\audit\audit_summary.csv
+  runs\final_sanity_run\audit\threshold_summary_by_context.csv
+  runs\final_sanity_run\audit\event_summary_by_context.csv
+  runs\final_sanity_run\audit\bad_threshold_order_rows.csv
+  runs\final_sanity_run\audit\violation_mismatch_rows.csv
+  runs\final_sanity_run\audit\near_miss_mismatch_rows.csv
+  runs\final_sanity_run\audit\near_violation_overlap_rows.csv
